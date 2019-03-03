@@ -182,6 +182,21 @@ nav {
     padding-bottom: 4em;
 }
 
+#schedule .section-heading {
+    padding-bottom: 1em;
+}
+
+#location {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+#location .map {
+    padding-bottom: 4em;
+    padding-top: 0;  
+}
+
+
 
 /** Footer **/
 
