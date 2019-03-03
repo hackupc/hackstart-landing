@@ -55,6 +55,14 @@ nav {
     margin: 0 auto !important;
 }
 
+.light-text {
+    font-weight: 500;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
 
 /**   Buttons   **/
 
@@ -169,7 +177,7 @@ nav {
     margin-left: 0 auto;
 }
 
-#students p, #location p {
+#students p,{
     text-align: center;
     font-weight: 600;
 }
@@ -200,7 +208,14 @@ nav {
     vertical-align: center;     
 }
 
+#location p {
+    text-align: center;
+}
 
+#location .info {
+
+    padding-top: 0em;
+}
 
 /** Footer **/
 
@@ -253,6 +268,7 @@ footer p {
     .subtitle {
         text-align: start;
     }
+
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -269,6 +285,11 @@ footer p {
     #students .subtitle {
         text-align: end;
         margin-right: 4em;
+    }
+
+
+    #location .info {
+        padding-top: 4em;
     }
 
  }
