@@ -21,9 +21,10 @@ nav {
 /**   Header   **/
 
 .title {
-    font-size: 4em;
     font-weight: 600;
     letter-spacing: 0.3em;
+    font-size: 2em;
+    text-align: center;
 }
 
 .subtitle {
@@ -47,6 +48,10 @@ nav {
 
 .start-align {
     text-align: start;   
+}
+
+.auto-center {
+    margin: 0 auto !important;
 }
 
 
@@ -113,10 +118,8 @@ nav {
 }
 
 .info-container{
-    margin: 0 auto;
-    width: 29em; 
     text-align: justify;
-    margin-bottom: 2.5em; 
+    padding-bottom: 3em; 
 }
 
 .info-container-sub {
@@ -131,10 +134,6 @@ nav {
 }
 
 /** Section - students **/
-
-#students .section-heading div {
-    margin: 0 auto !important;
-}
 
 .event-info {
     width: 50em;
@@ -156,10 +155,7 @@ nav {
     padding-bottom: 0.75em;
 }
 
-.event-info .text {
-    text-align: center;
-    font-weight: 600;
-}
+
 
 #students h3 {
     font-weight: 600;
@@ -173,16 +169,53 @@ nav {
     margin-left: 0 auto;
 }
 
+#students p {
+    text-align: center;
+    font-weight: 600;
+}
+
 #startups h3 {
     text-align: center;
 } 
 
-#startups .event-info {
-    margin: 0 auto !important;
-}
-
-
-
 #schedule .section-heading {
     padding-bottom: 4em;
 }
+
+
+/** Responsive **/ 
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) { 
+
+    .title {
+        text-align: start;
+        font-size: 2em;
+    }
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media  screen and (min-width: 768px) { 
+    .title {
+        font-size: 2.5em;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) { 
+    .title {
+        font-size: 3em;
+    }
+
+ }
+
+/*Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+    .title {
+        font-size: 4em;
+    }
+
+ }
