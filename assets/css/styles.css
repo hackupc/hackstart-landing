@@ -1,0 +1,140 @@
+
+
+html,body, header {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/**   Navbar   **/
+nav {
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+}
+
+/**   Header   **/
+
+.title {
+    font-size: 4em;
+    font-weight: 600;
+    letter-spacing: 0.3em;
+}
+
+.subtitle {
+    margin-bottom: 2.5em;
+}
+
+.summary {
+    padding-top: 3.5em; 
+}
+
+.summary-content {
+    margin-top: -2em;
+}
+
+
+/**   Utils   **/
+
+.inherit-height {
+    height: inherit;
+}
+
+.margin-15{
+    margin-left: 0px !important;
+}
+
+
+/**   Buttons   **/
+
+.button-contianer {
+    display: flex;
+    margin-left: -15px;
+}
+
+.button-primary {
+    padding: 0.5em;
+    width: inherit;
+    border: 0;
+
+    background-color: #FF4E32;
+    color: white;
+}
+
+.button-secondary {
+    padding: 0.5em;
+    width: inherit;
+    border: 0;
+
+    background-color: transparent;
+    color: #FF4E32;
+    border: 1px solid #FF4E32;
+}
+
+/** Section **/
+
+.section-heading {
+    text-align: center;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+.section-title {
+    font-size: 2em; 
+    letter-spacing: 0.3em;
+    font-weight: 600;
+}
+
+.separator {
+    width: 5em;
+    height: 1px;
+    margin: 0 auto;
+    margin-top:0.5em;
+}
+
+.info-container{
+    margin: 0 auto;
+    width: 29em; 
+    text-align: justify;
+    margin-bottom: 2.5em; 
+}
+
+.info-container-sub {
+    margin: 0 auto;
+    text-align: justify;
+    margin-bottom: 4em; 
+}
+
+.title-question{
+    font-weight: 600;
+    text-align: center;
+    padding: 0.5em;
+    font-size:  1.25em;
+}
+
+/** Section **/
+
+#students .section-heading div {
+    margin: 0 auto !important;
+}
+
+.event-info {
+    width: 50em;
+    margin: 0 auto !important;
+    text-align: center;
+}
+
+#students .button-contianer {
+    margin: 0 auto !important;
+}
+
+#students button {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.event-info .text {
+    text-align: center;
+    font-weight: 600;
+}
