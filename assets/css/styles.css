@@ -29,6 +29,7 @@ nav {
 
 .subtitle {
     margin-bottom: 2.5em;
+    text-align: center;
 }
 
 .summary-content {
@@ -64,6 +65,7 @@ nav {
 
 .button-primary {
     padding: 0.5em;
+    margin: 0.5em;
     width: inherit;
     border: 0;
     font-weight: 600;
@@ -74,6 +76,7 @@ nav {
 
 .button-secondary {
     padding: 0.5em;
+    margin: 0.5em;   
     width: inherit;
     font-weight: 600;
 
@@ -156,16 +159,13 @@ nav {
 }
 
 
-
 #students h3 {
     font-weight: 600;
-    text-align: start;
-    margin-left: 4em;
+    text-align: center;
+    margin-right: 0 auto;
 }
 
 #students .subtitle {
-    text-align: end;
-    margin-right: 4em;
     margin-left: 0 auto;
 }
 
@@ -183,6 +183,34 @@ nav {
 }
 
 
+/** Footer **/
+
+
+footer .social-icons a {
+    margin: 0.5em;
+    height: auto;
+    width: 2em;
+}
+
+footer a:hover {
+    color: black !important;
+}
+
+footer a {
+    color: white !important;
+}
+
+footer .row {
+    padding-top: 3rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+
 /** Responsive **/ 
 
 
@@ -191,7 +219,6 @@ nav {
 @media screen and (min-width: 576px) { 
 
     .title {
-        text-align: start;
         font-size: 2em;
     }
 
@@ -200,7 +227,12 @@ nav {
 /* Medium devices (tablets, 768px and up) */
 @media  screen and (min-width: 768px) { 
     .title {
+        text-align: start;
         font-size: 2.5em;
+    }
+
+    .subtitle {
+        text-align: start;
     }
  }
 
@@ -208,6 +240,16 @@ nav {
 @media screen and (min-width: 992px) { 
     .title {
         font-size: 3em;
+    }
+
+    #students h3 {
+        text-align: start;
+        margin-left: 4em;
+    }
+
+    #students .subtitle {
+        text-align: end;
+        margin-right: 4em;
     }
 
  }
