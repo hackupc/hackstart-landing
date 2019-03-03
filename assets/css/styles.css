@@ -1,11 +1,17 @@
 
 
-html,body, header {
-    height: 100%;
+html, body {
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
+}
+
+h1, h2, h3,h4,h5, p {
     font-family: 'Montserrat', sans-serif;
 }
 
+header {
+    height: -webkit-fill-available;
+}
 /**   Navbar   **/
 nav {
     padding-left: 3em !important;
@@ -24,10 +30,6 @@ nav {
     margin-bottom: 2.5em;
 }
 
-.summary {
-    padding-top: 3.5em; 
-}
-
 .summary-content {
     margin-top: -2em;
 }
@@ -43,6 +45,10 @@ nav {
     margin-left: 0px !important;
 }
 
+.start-align {
+    text-align: start;   
+}
+
 
 /**   Buttons   **/
 
@@ -55,6 +61,7 @@ nav {
     padding: 0.5em;
     width: inherit;
     border: 0;
+    font-weight: 600;
 
     background-color: #FF4E32;
     color: white;
@@ -63,24 +70,38 @@ nav {
 .button-secondary {
     padding: 0.5em;
     width: inherit;
-    border: 0;
+    font-weight: 600;
 
     background-color: transparent;
     color: #FF4E32;
     border: 1px solid #FF4E32;
 }
 
+.button-white {
+    padding: 0.5em;
+    width: inherit;
+    border: 0;
+    font-weight: 600;
+
+    background-color: white;
+    color:  #FF4E32;
+}
+
 /** Section **/
 
 .section-heading {
     text-align: center;
-    padding-top: 2.5em;
+    padding-top: 4em;
     padding-bottom: 2.5em;
 }
 
 .section-title {
-    font-size: 2em; 
     letter-spacing: 0.3em;
+    font-weight: 600;
+}
+
+.section-subtitle {
+    font-size:  1.25em;
     font-weight: 600;
 }
 
@@ -105,13 +126,11 @@ nav {
 }
 
 .title-question{
-    font-weight: 600;
     text-align: center;
     padding: 0.5em;
-    font-size:  1.25em;
 }
 
-/** Section **/
+/** Section - students **/
 
 #students .section-heading div {
     margin: 0 auto !important;
@@ -121,20 +140,49 @@ nav {
     width: 50em;
     margin: 0 auto !important;
     text-align: center;
+    padding-bottom: 2.5em;
 }
 
-#students .button-contianer {
+#students .button-contianer,  #startups .button-contianer{
     margin: 0 auto !important;
 }
 
-#students button {
-    margin-top: 2em;
+#students button,  #startups button {
+    margin-top: 1em;
     margin-bottom: 2em;
     margin-left: 5em;
     margin-right: 5em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
 }
 
 .event-info .text {
     text-align: center;
     font-weight: 600;
+}
+
+#students h3 {
+    font-weight: 600;
+    text-align: start;
+    margin-left: 4em;
+}
+
+#students .subtitle {
+    text-align: end;
+    margin-right: 4em;
+    margin-left: 0 auto;
+}
+
+#startups h3 {
+    text-align: center;
+} 
+
+#startups .event-info {
+    margin: 0 auto !important;
+}
+
+
+
+#schedule .section-heading {
+    padding-bottom: 4em;
 }
