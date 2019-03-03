@@ -1,0 +1,303 @@
+
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+
+h1, h2, h3,h4,h5, p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: -webkit-fill-available;
+}
+/**   Navbar   **/
+nav {
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+}
+
+/**   Header   **/
+
+.title {
+    font-weight: 600;
+    letter-spacing: 0.3em;
+    font-size: 2em;
+    text-align: center;
+}
+
+.subtitle {
+    margin-bottom: 2.5em;
+    text-align: center;
+}
+
+.summary-content {
+    margin-top: -2em;
+}
+
+
+/**   Utils   **/
+
+.inherit-height {
+    height: inherit;
+}
+
+.margin-15{
+    margin-left: 0px !important;
+}
+
+.start-align {
+    text-align: start;   
+}
+
+.auto-center {
+    margin: 0 auto !important;
+}
+
+.light-text {
+    font-weight: 500;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
+
+/**   Buttons   **/
+
+.button-contianer {
+    display: flex;
+    margin-left: -15px;
+}
+
+.button-primary {
+    padding: 0.5em;
+    margin: 0.5em;
+    width: inherit;
+    border: 0;
+    font-weight: 600;
+
+    background-color: #FF4E32;
+    color: white;
+}
+
+.button-secondary {
+    padding: 0.5em;
+    margin: 0.5em;   
+    width: inherit;
+    font-weight: 600;
+
+    background-color: transparent;
+    color: #FF4E32;
+    border: 1px solid #FF4E32;
+}
+
+.button-white {
+    padding: 0.5em;
+    width: inherit;
+    border: 0;
+    font-weight: 600;
+
+    background-color: white;
+    color:  #FF4E32;
+}
+
+/** Section **/
+
+.section-heading {
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 2.5em;
+}
+
+.section-title {
+    letter-spacing: 0.3em;
+    font-weight: 600;
+}
+
+.section-subtitle {
+    font-size:  1.25em;
+    font-weight: 600;
+}
+
+.separator {
+    width: 5em;
+    height: 1px;
+    margin: 0 auto;
+    margin-top:0.5em;
+}
+
+.info-container{
+    text-align: justify;
+    padding-bottom: 3em; 
+}
+
+.info-container-sub {
+    margin: 0 auto;
+    text-align: justify;
+    margin-bottom: 4em; 
+}
+
+.title-question{
+    text-align: center;
+    padding: 0.5em;
+}
+
+/** Section - students **/
+
+.event-info {
+    width: 50em;
+    margin: 0 auto !important;
+    text-align: center;
+    padding-bottom: 2.5em;
+}
+
+#students .button-contianer,  #startups .button-contianer{
+    margin: 0 auto !important;
+}
+
+#students button,  #startups button {
+    margin-top: 1em;
+    margin-bottom: 2em;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+}
+
+
+#students h3 {
+    font-weight: 600;
+    text-align: center;
+    margin-right: 0 auto;
+}
+
+#students .subtitle {
+    margin-left: 0 auto;
+}
+
+#students p,{
+    text-align: center;
+    font-weight: 600;
+}
+
+#startups h3 {
+    text-align: center;
+} 
+
+#schedule .section-heading {
+    padding-bottom: 4em;
+}
+
+#schedule .section-heading {
+    padding-bottom: 1em;
+}
+
+#location {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+#location .map {
+    padding-bottom: 4em;
+    padding-top: 0;  
+}
+
+#location .text {
+    vertical-align: center;     
+}
+
+#location p {
+    text-align: center;
+}
+
+#location .info {
+
+    padding-top: 0em;
+}
+
+/** Footer **/
+
+
+footer .social-icons a {
+    margin: 0.5em;
+    height: auto;
+    width: 2em;
+}
+
+footer a:hover {
+    color: black !important;
+}
+
+footer a {
+    color: white !important;
+}
+
+footer .row {
+    padding-top: 3rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+
+/** Responsive **/ 
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) { 
+
+    .title {
+        font-size: 2em;
+    }
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media  screen and (min-width: 768px) { 
+    .title {
+        text-align: start;
+        font-size: 2.5em;
+    }
+
+    .subtitle {
+        text-align: start;
+    }
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) { 
+    .title {
+        font-size: 3em;
+    }
+
+    #students h3 {
+        text-align: start;
+        margin-left: 4em;
+    }
+
+    #students .subtitle {
+        text-align: end;
+        margin-right: 4em;
+    }
+
+
+    #location .info {
+        padding-top: 4em;
+    }
+
+ }
+
+/*Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) { 
+    .title {
+        font-size: 4em;
+    }
+
+ }

@@ -1,0 +1,58 @@
+
+/** Background colors**/
+.bg-primary-color {
+    background: #FF4E32;
+}
+
+.bg-accent-color {
+    background: #C6ED3B;
+}
+
+.bg-white-color {
+    background: #FFFFFF;
+}
+
+.bg-black-color {
+    background: #000000;
+}
+
+.bg-gray-one-color {
+    background: #474647;
+}
+
+.bg-gray-two-color {
+    background: #6B6A6B;
+}
+
+.bg-gray-three-color {
+    background: #EFEFEF;
+}
+
+/** Text colors**/
+.primary-color {
+    color: #FF4E32;
+}
+
+.accent-color {
+    color: #C6ED3B;
+}
+
+.white-color {
+    color: #FFFFFF;
+}
+
+.black-color {
+    color: #000000;
+}
+
+.gray-one-color {
+    color: #474647;
+}
+
+.gray-two-color {
+    color: #6B6A6B;
+}
+
+.gray-three-color {
+    color: #EFEFEF;
+}
