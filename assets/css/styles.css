@@ -169,7 +169,7 @@ nav {
     margin-left: 0 auto;
 }
 
-#students p {
+#students p, #location p {
     text-align: center;
     font-weight: 600;
 }
@@ -194,6 +194,10 @@ nav {
 #location .map {
     padding-bottom: 4em;
     padding-top: 0;  
+}
+
+#location .text {
+    vertical-align: center;     
 }
 
 
