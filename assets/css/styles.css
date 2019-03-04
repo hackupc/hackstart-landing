@@ -178,11 +178,11 @@ button p {
     padding-bottom: 2.5em;
 }
 
-#students .button-contianer,  #startups .button-contianer{
+#students .button-contianer {
     margin: 0 auto !important;
 }
 
-#students button,  #startups button {
+#students button,  #join-startups button {
     margin-top: 1em;
     margin-bottom: 2em;
     margin-left: 5em;
@@ -216,9 +216,6 @@ button p {
     padding-bottom: 0.5em;
 }
 
-#startups h3 {
-    text-align: center;
-} 
 
 #schedule .section-heading {
     padding-bottom: 4em;
