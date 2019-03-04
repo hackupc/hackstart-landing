@@ -7,7 +7,7 @@ html, body {
     scroll-behavior: smooth;
 }
 
-h1, h2, h3,h4,h5, p {
+h1, h2, h3,h4,h5, p, a {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -76,6 +76,10 @@ nav {
 .button-contianer {
     display: flex;
     margin-left: -15px;
+}
+
+button p {
+    margin: 0;
 }
 
 .button-primary {
