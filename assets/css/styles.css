@@ -243,9 +243,10 @@ button p {
     text-align: center;
 }
 
-#location .info {
-
-    padding-top: 0em;
+#location .info {    
+    border: 1px solid #FF4E32;
+    padding: 0.75em;
+    margin: 0.5em auto;
 }
 
 /** Footer **/
@@ -320,7 +321,7 @@ footer p {
 
 
     #location .info {
-        padding-top: 4em;
+        padding: 2.5em;
     }
 
  }
@@ -338,4 +339,5 @@ footer p {
     #students .subtitle {
         margin-right: 4em;
     }
+
  }
