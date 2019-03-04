@@ -14,6 +14,8 @@ h1, h2, h3,h4,h5, p, a {
 header {
     height: -webkit-fill-available;
 }
+
+
 /**   Navbar   **/
 nav {
     padding-left: 3em !important;
@@ -26,6 +28,14 @@ nav {
 
 .active {
     color: #FF4E32 !important;
+}
+
+.image-background {
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    margin-right: 12em;
+    margin-top: 7em;
 }
 
 
