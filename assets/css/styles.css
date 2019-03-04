@@ -3,6 +3,8 @@
 html, body {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
+
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3,h4,h5, p {
@@ -17,6 +19,11 @@ nav {
     padding-left: 3em !important;
     padding-right: 3em !important;
 }
+
+.active {
+    color: #FF4E32 !important;
+}
+
 
 /**   Header   **/
 
@@ -177,7 +184,7 @@ nav {
     margin-left: 0 auto;
 }
 
-#students p,{
+#students p{
     text-align: center;
     font-weight: 600;
 }
