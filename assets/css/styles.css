@@ -14,14 +14,28 @@ h1, h2, h3,h4,h5, p, a {
 header {
     height: -webkit-fill-available;
 }
+
+
 /**   Navbar   **/
 nav {
     padding-left: 3em !important;
     padding-right: 3em !important;
 }
 
+.navbar-brand img {
+    padding-right: 0.5em;
+}
+
 .active {
     color: #FF4E32 !important;
+}
+
+.image-background {
+    position: absolute;
+    margin: 0 auto;
+    right: 0;
+    margin-right: 12em;
+    margin-top: 7em;
 }
 
 
@@ -164,11 +178,11 @@ button p {
     padding-bottom: 2.5em;
 }
 
-#students .button-contianer,  #startups .button-contianer{
+#students .button-contianer {
     margin: 0 auto !important;
 }
 
-#students button,  #startups button {
+#students button,  #join-startups button {
     margin-top: 1em;
     margin-bottom: 2em;
     margin-left: 5em;
@@ -193,9 +207,15 @@ button p {
     font-weight: 600;
 }
 
-#startups h3 {
-    text-align: center;
-} 
+#students .subtitle {
+    margin-bottom: 0;
+}
+
+
+#students .text-center img{
+    padding-bottom: 0.5em;
+}
+
 
 #schedule .section-heading {
     padding-bottom: 4em;
@@ -223,9 +243,10 @@ button p {
     text-align: center;
 }
 
-#location .info {
-
-    padding-top: 0em;
+#location .info {    
+    border: 1px solid #FF4E32;
+    padding: 0.75em;
+    margin: 0.5em auto;
 }
 
 /** Footer **/
@@ -290,17 +311,17 @@ footer p {
 
     #students h3 {
         text-align: start;
-        margin-left: 4em;
+        margin-left: 3em;
     }
 
     #students .subtitle {
         text-align: end;
-        margin-right: 4em;
+        margin-right: 3em;
     }
 
 
     #location .info {
-        padding-top: 4em;
+        padding: 2.5em;
     }
 
  }
@@ -309,6 +330,14 @@ footer p {
 @media screen and (min-width: 1200px) { 
     .title {
         font-size: 4em;
+    }
+
+    #students h3 {
+        margin-left: 3em;
+    }
+
+    #students .subtitle {
+        margin-right: 4em;
     }
 
  }

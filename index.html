@@ -23,7 +23,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
     <title>HackStart 2019 | May 22nd | Hackers@UPC</title>
+
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
 </head>
 
 <body>
@@ -31,7 +35,7 @@
     <header class=" bg-gray-three-color">
         <nav class="navbar navbar-expand-lg fixed-top bg-white-color navbar-light">
             <a class="navbar-brand" href="#">
-                <img src="https://getbootstrap.com/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30"
+                <img src="assets/img/logo.svg" width="auto" height="30"
                     class="d-inline-block align-top" alt="">
                 HackStart
             </a>
@@ -66,16 +70,14 @@
                     <p class="subtitle">A Hackers@UPC event that wants to connect startups with students reversing the 
                         traditional dynamic of recruitment for fast-paced startups in one the best regions in Europe, 
                         Barcelona.</p>
-                    <!--
                     <div class="col row margin-15">
                         <div class="col-lg-6 col-md-6 col-sm-12 ">
-                            <button type="button" class="button-primary md-btn-ripple">Contact</button>
+                            <button onclick="window.open('mailto:hackstart@hackersatupc.org','_blank')" type="button" class="button-primary md-btn-ripple">Contact</button>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 ">
-                            <button type="button" class="button-secondary md-btn-ripple">Learn more</button>
+                            <button onclick="window.open('#about','_self')" type="button" class="button-secondary md-btn-ripple md-btn-ripple-white">Learn more</button>
                         </div>
                     </div>
-                    -->
                 </div>
             </div>
         </div>
@@ -89,7 +91,7 @@
             </div>
             <div class="col col-12">
                 <div class="row">
-                    <div class="col col-lg-8 col-md-8 col-sm-12 info-container auto-center">
+                    <div class="col col-lg-6 col-md-8 col-sm-12 info-container auto-center">
                         <h4 class="section-subtitle title-question primary-color">
                             WHAT IS HACKSTART?
                         </h4>
@@ -98,8 +100,10 @@
                                 HackStart reverses the traditional dynamic of recruitment for fast-paced startups in Barcelona 
                                 area. We bring 20 of Barcelona’s best growth-stage companies and 75 of UPC's students to the 
                                 <a href="#location">Sala Agora</a> for a pitch and networking event designed to connect motivated UPC students with 
-                                the startup community. Flipping the traditional career fair on it’s head, we start with a 1-hour 
-                                pitch session where each startup will get the chance to pitch their company to students. We then 
+                                the startup community. <br/> <br/>
+                                
+                                Flipping the traditional career fair on it’s head, we start with a <b>1-hour 
+                                pitch session</b> where each startup will get the chance to pitch their company to students. We then 
                                 have a networking event where the students can meet the companies they like best. The result is 
                                 an environment that facilitates relationships between the innovative companies and talent they 
                                 need to make their vision a reality.
@@ -176,11 +180,13 @@
         <div class="row">
             <div class="col-6 row auto-center">
                 <div class="col col-lg-6 text-center bold-text">
+                    <img src="assets/img/calendar.svg" width="auto" height="50"/>
                     <p>May 22nd <br />
                         12:00 - 14:00
                     </p>
                 </div>
                 <div class="col col-lg-6 text-center bold-text">
+                    <img src="assets/img/location.svg" width="auto" height="50"/>
                     <p>Sala Agora<br />
                         Campus Nord, UPC
                     </p>
@@ -190,23 +196,33 @@
         </div>
         <div class="row">
             <div class="col col-lg-4 col-md-6 button-contianer auto-center">
-                <button class="button-primary md-btn-ripple"><p>STUDENT APPLICATION</p></button>
+                <button class="button-primary md-btn-ripple" type="button" onclick="window.open('http://typeform.com','_blank')"><p>STUDENT APPLICATION</p></button>
             </div>
         </div>
     </div>
-
-    <div class="container-fluid bg-primary-color" id="startups">
+  <div class="container-fluid bg-gray-two-color" id="startups">
+       <!--   <div class="row">
+            <div class="col col-12 section-heading ">
+                <h3 class="section-title">STARTUPS</h3>
+                <div class="separator bg-gray-one-color"></div>
+            </div>
+        </div>
+        <div class="row">
+            LOGOS
+        </div>  -->
+    </div>
+    <div class="container-fluid bg-primary-color" id="join-startups">
         <div class="row section-heading">
             <div class="col">
                 <h3 class="white-color">Get into the startups to participate in HackStart</h3>
             </div>
         </div>
         <div class="row">
-            <div class="col col-lg-4 col-md-6 button-contianer">
-                <button class="button-white md-btn-ripple"><p>STARTUP APPLICATION</p></button>
+            <div class="col col-lg-4 col-md-6 button-contianer auto-center">
+                <button class="button-white md-btn-ripple md-btn-ripple-white" type="button" target="_blank" onclick="window.open('mailto:hackstart@hackersatupc.org','_blank')"><p>STARTUP APPLICATION</p></button>
             </div>
         </div>
-    </div>
+    </div> 
 
     <div class="container" id="schedule">
         <div class="row">
@@ -241,19 +257,21 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-8 col-md-12 auto-center row">
+            <div class="col-lg-10 col-md-12 auto-center row">
 
-                <div class="col col-lg-6 col-12 auto-center info">
-                    <p class="primary-color bold-text"> 
-                        Event will be held at Facultat d'Informàtica de Barcelona. <br/>
-                        Hope to see you there!
-                    </p>
-                    <p class="light-text">Sala Agora<br/>
-                    Campus Nord, UPC<br/> 
-                    Carrer de Jordi Girona<br/>
-                    08034 Barcelona</p>
+                <div class="col col-lg-5 col-12 auto-center">
+                    <div class="info">
+                        <p class="primary-color bold-text"> 
+                                Event will be held at Facultat d'Informàtica de Barcelona. <br/>
+                                Hope to see you there!
+                            </p>
+                            <p class="light-text">Sala Agora<br/>
+                            Campus Nord, UPC<br/> 
+                            Carrer de Jordi Girona<br/>
+                            08034 Barcelona</p>
+                    </div>
                 </div>
-                <div class="col col-lg-6 col-12 auto-center map">
+                <div class="col col-lg-7 col-12 auto-center map">
                         <iframe id="map"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.3590628867537!2d2.111086351317292!3d41.38800800381713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a30028092669%3A0x1ac78f353d906112!2sUniversidad+Polit%C3%A9cnica+de+Catalu%C3%B1a+-+Campus+Norte!5e0!3m2!1ses!2ses!4v1551655078149"
                         width="100%" height="460" frameborder="0" style="border:0; margin-bottom: -10px;"
