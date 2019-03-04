@@ -20,6 +20,10 @@ nav {
     padding-right: 3em !important;
 }
 
+.navbar-brand img {
+    padding-right: 0.5em;
+}
+
 .active {
     color: #FF4E32 !important;
 }
@@ -193,6 +197,15 @@ button p {
     font-weight: 600;
 }
 
+#students .subtitle {
+    margin-bottom: 0;
+}
+
+
+#students .text-center img{
+    padding-bottom: 0.5em;
+}
+
 #startups h3 {
     text-align: center;
 } 
@@ -290,12 +303,12 @@ footer p {
 
     #students h3 {
         text-align: start;
-        margin-left: 4em;
+        margin-left: 3em;
     }
 
     #students .subtitle {
         text-align: end;
-        margin-right: 4em;
+        margin-right: 3em;
     }
 
 
@@ -311,4 +324,11 @@ footer p {
         font-size: 4em;
     }
 
+    #students h3 {
+        margin-left: 3em;
+    }
+
+    #students .subtitle {
+        margin-right: 4em;
+    }
  }
