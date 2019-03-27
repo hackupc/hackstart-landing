@@ -12,7 +12,9 @@ h1, h2, h3,h4,h5, p, a {
 }
 
 header {
+    display: inline-block;
     height: -webkit-fill-available;
+    height: -moz-fit-content;
 }
 
 
@@ -41,16 +43,35 @@ nav {
 
 /**   Header   **/
 
+.summary {
+    padding-left: 0em;
+    padding-right: 0em;
+}
+
+.background-cover {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url('../img/cover.jpg');
+    background-repeat: 'no-repeat';
+    opacity: 0.5;
+}
+
+
 .title {
     font-weight: 600;
     letter-spacing: 0.3em;
-    font-size: 2em;
+    font-size: 2.5em;
     text-align: center;
+    text-shadow: 3px 4px #FF4E32;
 }
 
 .subtitle {
     margin-bottom: 2.5em;
     text-align: center;
+    font-weight: 500;
 }
 
 .summary-content {
@@ -94,6 +115,7 @@ nav {
 
 button p {
     margin: 0;
+    font-size: 20px;
 }
 
 .button-primary {
@@ -101,21 +123,25 @@ button p {
     margin: 0.5em;
     width: inherit;
     border: 0;
-    font-weight: 600;
+    font-weight: 700;
 
     background-color: #FF4E32;
     color: white;
+
+    font-size: large;
 }
 
 .button-secondary {
     padding: 0.5em;
     margin: 0.5em;   
     width: inherit;
-    font-weight: 600;
+    font-weight: 700;
 
     background-color: transparent;
     color: #FF4E32;
-    border: 1px solid #FF4E32;
+    border: 2px solid #FF4E32;
+
+    font-size: large;
 }
 
 .button-white {
@@ -293,12 +319,11 @@ footer p {
 /* Medium devices (tablets, 768px and up) */
 @media  screen and (min-width: 768px) { 
     .title {
-        text-align: start;
         font-size: 2.5em;
     }
 
     .subtitle {
-        text-align: start;
+        text-align: center;
     }
 
  }
@@ -329,7 +354,7 @@ footer p {
 /*Extra large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) { 
     .title {
-        font-size: 4em;
+        font-size: 4.75em;
     }
 
     #students h3 {
@@ -340,4 +365,12 @@ footer p {
         margin-right: 4em;
     }
 
+    .summary {
+        padding-left: 12em;
+        padding-right: 12em;
+    }
+
+    .subtitle {
+        font-size:  large;
+    }
  }
