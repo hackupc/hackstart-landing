@@ -195,6 +195,21 @@ button p {
     padding: 0.5em;
 }
 
+/** Section - startups **/
+
+.startup-logo {
+    margin-top: 4vh;
+    margin-bottom: 8vh;
+    text-align: center;
+}
+
+.startup-logo img {
+    width: 18%;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
 /** Section - students **/
 
 .event-info {
