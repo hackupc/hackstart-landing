@@ -138,7 +138,6 @@ button p {
     font-weight: 700;
 
     background-color: transparent;
-    color: #FF4E32;
     border: 2px solid #FF4E32;
 
     font-size: large;
@@ -152,6 +151,12 @@ button p {
 
     background-color: white;
     color:  #FF4E32;
+}
+
+.button-shadow {
+    -webkit-box-shadow: 8px 20px 20px -17px rgba(0,0,0,0.87);
+    -moz-box-shadow: 8px 20px 20px -17px rgba(0,0,0,0.87);
+    box-shadow: 8px 20px 20px -17px rgba(0,0,0,0.87);
 }
 
 /** Section **/
@@ -201,12 +206,11 @@ button p {
     margin-top: 4vh;
     margin-bottom: 8vh;
     text-align: center;
+    padding: 0 !important;
 }
 
 .startup-logo img {
-    width: 18%;
-    margin-right: 25px;
-    margin-left: 25px;
+    width: 60%;
     margin-bottom: 10px;
 }
 
@@ -326,7 +330,7 @@ footer p {
 @media screen and (min-width: 576px) { 
 
     .title {
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
  }
@@ -334,7 +338,7 @@ footer p {
 /* Medium devices (tablets, 768px and up) */
 @media  screen and (min-width: 768px) { 
     .title {
-        font-size: 2.5em;
+        font-size: 3em;
     }
 
     .subtitle {
@@ -346,7 +350,7 @@ footer p {
 /* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) { 
     .title {
-        font-size: 3em;
+        font-size: 3.2em;
     }
 
     #students h3 {
