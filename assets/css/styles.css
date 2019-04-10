@@ -13,8 +13,8 @@ h1, h2, h3,h4,h5, p, a {
 
 header {
     display: inline-block;
-    height: -webkit-fill-available;
-    height: -moz-fit-content;
+    height:100vh;
+    position: relative;
 }
 
 
