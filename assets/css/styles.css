@@ -13,8 +13,8 @@ h1, h2, h3,h4,h5, p, a {
 
 header {
     display: inline-block;
-    height: -webkit-fill-available;
-    height: -moz-fit-content;
+    height:100vh;
+    position: relative;
 }
 
 
@@ -63,7 +63,7 @@ nav {
 .title {
     font-weight: 600;
     letter-spacing: 0.3em;
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
     text-shadow: 3px 4px #FF4E32;
 }
