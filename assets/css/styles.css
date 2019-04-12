@@ -209,9 +209,19 @@ button p {
     padding: 0 !important;
 }
 
+.startup-logo .helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.startup-logo div {
+    margin-bottom: 4vh;
+}
+
 .startup-logo img {
     width: 60%;
-    margin-bottom: 4vh;
+    vertical-align: middle;
 }
 
 /** Section - students **/
