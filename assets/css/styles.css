@@ -306,6 +306,24 @@ button p {
 
 /** Footer **/
 
+footer {
+    padding-left: 10vh !important;
+    padding-right: 10vh !important;
+    padding-bottom: 2em;
+}
+
+footer .first-row {
+    padding-top: 2em !important;
+    padding-bottom: 1em;
+}
+
+footer .social-icons {
+    text-align: center;
+}
+
+footer .web-links {
+    text-align: center;
+}
 
 footer .social-icons a {
     margin: 0.5em;
@@ -322,13 +340,14 @@ footer a {
 }
 
 footer .row {
-    padding-top: 3rem;
+    padding-top: 1em;
 }
 
 footer p {
     text-align: center;
     font-size: 14px;
     color: white;
+    margin-bottom: 0 !important;
 }
 
 
@@ -355,6 +374,11 @@ footer p {
         text-align: center;
     }
 
+    footer {
+        padding-left: 15vh !important;
+        padding-right: 15vh !important;
+    }
+
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -376,6 +400,14 @@ footer p {
 
     #location .info {
         padding: 2.5em;
+    }
+
+    footer .social-icons {
+        text-align: left;
+    }
+    
+    footer .web-links {
+        text-align: right;
     }
 
  }
@@ -402,4 +434,10 @@ footer p {
     .subtitle {
         font-size:  large;
     }
+
+    footer {
+        padding-left: 20vh !important;
+        padding-right: 20vh !important;
+    }
+    
  }
