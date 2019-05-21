@@ -8,6 +8,10 @@
     transform: translateY(-1px);
 }
 
+.hover-disabled {
+  pointer-events: none;
+}
+
 
 /*
  Ripple
